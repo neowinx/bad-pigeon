@@ -3,6 +3,6 @@ import sbtassembly.Plugin.AssemblyKeys._
 
 assemblySettings
 
-assemblyOption in assembly ~= { _.copy(prependShellScript = Some(defaultShellScript)) }
+//assemblyOption in assembly ~= { _.copy(prependShellScript = Some(defaultShellScript)) }
 
-jarName in assembly := { s"${name.value}-${version.value}" }
+jarName in assembly := { s"${name.value}.jar" }

@@ -17,9 +17,9 @@ object BadPigeon {
     if (args.length < 4 || args.length > 5) {
       println("Evia un email.")
       println("uso:")
-      println("  bad-pigeon-1.1 [-Dproperty1=value1]... DE PARA ASUNTO MENSAJE [ADJUNTO]")
+      println("  java [-Dproperty1=value1]... -jar bad-pigeon.jar DE PARA ASUNTO MENSAJE [ADJUNTO]")
       println
-      println("Ejemplo: bad-pigeon-1.0 gt40@example.org gt90@example.org \"I am a better car\" \"... and you know it...\"")
+      println("Ejemplo: java -Dmail.smtp.host=mail.example.org -jar bad-pigeon.jar gt40@example.org gt90@example.org \"I am a better car\" \"... and you know it...\"")
       sys.exit(1)
     }
 

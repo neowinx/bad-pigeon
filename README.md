@@ -19,13 +19,13 @@ Una vez instalados jdk y sbt, ejecutamos la tarea **assembly** en sbt para poder
 sbt assembly
 ```
 
-el resultado es un ejecutable dentro del directorio **target/scala-2.10/bad-pigeon-1.1**
+el resultado es un jar dentro del directorio **target/scala-2.10/bad-pigeon.jar**
 
 ## Uso
 
 El modo de uso es simple:
 ```bash
-bad-pigeon-1.1 [-Dproperty1=value1]... DE PARA ASUNTO MENSAJE [ADJUNTO]
+java [-Dproperty1=value1]... -jar bad-pigeon.jar DE PARA ASUNTO MENSAJE [ADJUNTO]
 ```
 
 donde los parametros son:
@@ -40,6 +40,6 @@ La configuracion de protocolos, host, puertos son totalmente configuradas por la
 
 ## Licencia
 
-Véase el archivo LICENSE.LGPL
+Véase el archivo [LICENSE.LGPL]
 
 Enjoy!
