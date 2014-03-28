@@ -14,7 +14,7 @@ object BadPigeon {
 
   def main(args: Array[String]) {
 
-    if (args.length < 4 && args.length > 5) {
+    if (args.length < 4 || args.length > 5) {
       println("Evia un email.")
       println("uso:")
       println("  bad-pigeon-1.1 [-Dproperty1=value1]... DE PARA ASUNTO MENSAJE [ADJUNTO]")
