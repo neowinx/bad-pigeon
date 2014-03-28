@@ -4,7 +4,7 @@ Pequeño programita que envia emails.
 
 ## Desarrollo
 
-Para el desarrollo de la aplicacion se coloca.
+Para el desarrollo de la aplicacion se ha utilizado Scala por un asimple razon, es más divertido que hacerlo con java.
 
 ### Requerimientos
 
