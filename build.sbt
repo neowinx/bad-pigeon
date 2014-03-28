@@ -1,6 +1,6 @@
 name := "bad-pigeon"
 
-version := "1.1-DEVELOP"
+version := "1.1"
 
 mainClass := Some("BadPigeon")
 
