@@ -8,7 +8,7 @@ In the cartoon series of [Dastardly and Muttley in Their Flying Machines](http:/
 
 ## Development
 
-Scala has been used for the development of this aplication (it's more fun than do it in pure java).
+Scala has been used for the development of this aplication (it's more fun than doing it in pure java).
 
 ### Requirements
 
