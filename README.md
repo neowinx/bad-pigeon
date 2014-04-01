@@ -1,45 +1,46 @@
 # Bad Pigeon
 
-Pequeño programita que envia emails.
+Little program for sending mails.
 
-## Desarrollo
+## Development
 
-Para el desarrollo de la aplicacion se ha utilizado scala (es más divertido que hacerlo con java).
+Scala has been used for the development of this aplication (it's more fun than do it in pure java).
 
-### Requerimientos
+### Requirements
 
 - [SBT](http://www.scala-sbt.org/)
 - [JDK](http://openjdk.java.net/)
 
-### Construcción
+### Build
 
-Una vez instalados jdk y sbt, ejecutamos la tarea **assembly** en sbt para poder compilar y construir el ejecutable
+Once you have jdk and sbt installed, execute the **assembly** task in sbt in order to compile and build the artifact
 
 ```bash
 sbt assembly
 ```
 
-el resultado es un jar dentro del directorio **target/scala-2.10/bad-pigeon.jar**
+the result is a jar inside the directory **target/scala-2.10/bad-pigeon.jar**
 
-## Uso
+## Use
 
-El modo de uso es simple:
 ```bash
-java [-Dproperty1=value1]... -jar bad-pigeon.jar DE PARA ASUNTO MENSAJE [ADJUNTO]
+java [-Dproperty1=value1]... -jar bad-pigeon.jar FROM TO SUBJECT MESSAGE [ATTACH]
 ```
 
-donde los parametros son:
-* [-Dproperty1=value1] - Son las propiedades que utiliza el [JavaMail API](https://javamail.java.net/nonav/docs/api/) para su configuración. Ej.: -Dmail.smpt.host=localhost
-* DE - La dirección de email del remitente. Ej.: boss@example.org
-* PARA - La dirección de email del destinatario. Ej.: employee@example.org
-* ASUNTO - El asunto del email. Ej.: "Hola buddy"
-* MENSAJE - El mensaje. Ej.: "Do your work!!!"
-* [ADJUNTO] - Archivo adjunto a enviarse junto con el email."
+where the parameters are:
+* [-Dproperty1=value1] - Properties used by the [JavaMail API](https://javamail.java.net/nonav/docs/api/) for configuration. Ej.: -Dmail.smpt.host=localhost
+* FROM - The email address of the sender i.e.: boss@example.org
+* TO - The email address of the recipient i.e.: employee@example.org
+* SUBJECT - The email subject i.e.: "Hola buddy"
+* MESSAGE - The message i.e.: "Do your work!!!"
+* [ATTACH] - Some optional file to send as attachment. (only 1 file is supported in this version)
 
-La configuracion de protocolos, host, puertos son totalmente configuradas por las propiedades del JavaMail API. Para mas información, vea [https://javamail.java.net/nonav/docs/api/]
+All protocol configuration like hosts, ports and others are completely configured throught the JavaMail API properties. For more information see [https://javamail.java.net/nonav/docs/api/]
 
-## Licencia
+## License
 
-Véase el archivo [LICENSE.LGPL]
+See [LICENSE](LICENSE)
 
 Enjoy!
+
+Pedro Flores
