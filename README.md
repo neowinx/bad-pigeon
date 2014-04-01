@@ -2,6 +2,10 @@
 
 Little program for sending mails.
 
+## Why the name?
+
+In the cartoon series of [Dastardly and Muttley in Their Flying Machines](http://en.wikipedia.org/wiki/Dastardly_and_Muttley_in_Their_Flying_Machines) of [Hanna-Barbera](http://en.wikipedia.org/wiki/Hanna-Barbera) there was this bad-ass pigeon who always delivers secret messages. This little application embrace the spirit of that little pigeon by delivering emails no matter the cimcurstances :)
+
 ## Development
 
 Scala has been used for the development of this aplication (it's more fun than do it in pure java).
