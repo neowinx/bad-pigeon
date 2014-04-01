@@ -2,6 +2,10 @@
 
 Pequeño programita que envia emails.
 
+## ¿Porqué el nombre?
+
+En la serie de dibjos animados [El escuadrón diabólico](http://es.wikipedia.org/wiki/El_escuadr%C3%B3n_diab%C3%B3lico) de [Hanna-Barbera](http://es.wikipedia.org/wiki/Hanna-Barbera) existe una paloma mensajera (carrier **pigeon** en inglés) que siempre se salía con la suya al enviar los mensajes secretos a su destino. Esta pequeña aplicación adopta el espíritu de esa paloma (**pigeon**) al enviar emails sin importar las circunstancias :)
+
 ## Desarrollo
 
 Para el desarrollo de la aplicacion se ha utilizado scala (es más divertido que hacerlo con java).
